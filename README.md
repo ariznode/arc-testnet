@@ -49,6 +49,10 @@ ARC_TESTNET_RPC_URL="https://rpc.testnet.arc.network"
 ```
 Save .env with CTRL + X, then prees Y then Enter
 
+```bash
+source .env
+```
+
 ## 💡 3. Create the Smart Contract
 
 Then create src/HelloArchitect.sol
@@ -75,6 +79,10 @@ contract HelloArchitect {
     }
 }
 ```
+```bash
+source .env
+```
+
 ## 🧪 4. Test and Build the Contract
 Run Tests
 ```bash
@@ -101,7 +109,7 @@ and add to .env
 PRIVATE_KEY="0x<yourprivatekey>"
 ```
 
-###Fund Your Wallet
+### Fund Your Wallet
 Visit https://faucet.circle.com, select Arc Testnet, paste your wallet address, and request testnet USDC.
 
 ### Deploy the Contract

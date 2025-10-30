@@ -14,14 +14,21 @@ By the end of this tutorial, you’ll be able to:
 
 ### Install Dependencies
 
-```bash
-curl -L https://foundry.paradigm.xyz | bash
-foundryup
-```
+
 
 ### Install Foundry
+
 ```bash
 curl -L https://foundry.paradigm.xyz | bash
+```
+
+#### Reload Shell
+```bash
+source ~/.bashrc
+```
+
+#### Run Foundry
+```bash
 foundryup
 ```
 

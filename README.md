@@ -158,7 +158,7 @@ cast call $HELLOARCHITECT_ADDRESS "getGreeting()(string)" \
 
 Check on https://testnet.arcscan.app/?_gl=1*1crz3rj*_gcl_au*MjEwNjY5NjM3MC4xNzYxNjYyNTY2*_ga*ODEwODgzNTc1LjE3NjE2NjI1NTg.*_ga_TFHGH9W48Q*czE3NjE4MDEwMDckbzQkZzEkdDE3NjE4MDE2NDEkajU4JGwwJGgyMDkxMjYxNjU2
 
-<img src="https://drive.google.com/file/d/17fffSM_7YIitQH5Pm9lyFh_EXT18gm4N" width="800" />
+<img src="https://drive.google.com/uc?export=view&id=17fffSM_7YIitQH5Pm9lyFh_EXT18gm4N" width="800" />
 
 ## ✅ Final Result
 - Your HelloArchitect contract is live on Arc Testnet

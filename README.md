@@ -1,20 +1,20 @@
-# ⚡ Quick Guide: Deploy a Smart Contract to Arc Testnet (Foundry)
+# ⚡ Quick Guide: Deploy a Smart Contract to Arc Testnet 
 
-## 🎯 What You’ll Learn
-By the end of this tutorial, you’ll be able to:
-- Set up a Foundry development environment  
-- Connect Foundry to the Arc Testnet  
-- Write and test a simple Solidity contract  
-- Deploy it to Arc  
-- Interact with your deployed contract  
+No VPS needed you can run this command with your local using WSL
 
 ---
 
 ## 🧱 1. Set Up Your Development Environment
 
 ### Install Dependencies
-
-
+#### Update
+```bash
+sudo apt update && sudo apt install -y 
+```
+#### Update System
+```bash
+sudo apt install curl git make build-essential pkg-config libssl-dev libclang-dev -y
+```
 
 ### Install Foundry
 

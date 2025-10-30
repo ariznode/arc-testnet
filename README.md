@@ -49,6 +49,7 @@ ARC_TESTNET_RPC_URL="https://rpc.testnet.arc.network"
 ```
 Save .env with CTRL + X, then prees Y then Enter
 
+load .env
 ```bash
 source .env
 ```
@@ -79,6 +80,8 @@ contract HelloArchitect {
     }
 }
 ```
+
+load
 ```bash
 source .env
 ```
@@ -94,7 +97,7 @@ forge build
 ```
 
 ## 🚀 5. Deploy to Arc Testnet
-###Generate a Wallet
+### Generate a Wallet
 cast wallet new
 ```bash
 Add your private key to .env:
@@ -109,6 +112,7 @@ and add to .env
 PRIVATE_KEY="0x<yourprivatekey>"
 ```
 
+load .env
 ```bash
 source .env
 ```
@@ -131,6 +135,8 @@ and add to .env
 ```bash
 HELLOARCHITECT_ADDRESS="<contract address>"
 ```
+
+load .env
 ```bash
 source .env
 ```

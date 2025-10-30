@@ -109,6 +109,10 @@ and add to .env
 PRIVATE_KEY="0x<yourprivatekey>"
 ```
 
+```bash
+source .env
+```
+
 ### Fund Your Wallet
 Visit https://faucet.circle.com, select Arc Testnet, paste your wallet address, and request testnet USDC.
 
@@ -126,6 +130,9 @@ nano .env
 and add to .env
 ```bash
 HELLOARCHITECT_ADDRESS="<contract address>"
+```
+```bash
+source .env
 ```
 
 ## 💬 6. Interact with Your Deployed Contract

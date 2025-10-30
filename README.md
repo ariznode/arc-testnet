@@ -111,6 +111,7 @@ and add to .env
 ```bash
 PRIVATE_KEY="0x<yourprivatekey>"
 ```
+change <yourprivatekey> with your evm private key
 
 load .env
 ```bash
@@ -127,14 +128,19 @@ forge create src/HelloArchitect.sol:HelloArchitect \
   --private-key $PRIVATE_KEY \
   --broadcast
 ```
+
+#### After successfull deployed Smart Contract
+<img src="https://drive.google.com/uc?export=view&id=1Lh9ssQX7vegCbW5f37eFb1GRJhBaD-s1" width="600" />
+
 Save your deployed address in .env
 ```bash
 nano .env
 ```
 and add to .env
 ```bash
-HELLOARCHITECT_ADDRESS="<contract address>"
+HELLOARCHITECT_ADDRESS="<smart-contract>"
 ```
+change <smart-contract> with your smart contract address
 
 load .env
 ```bash
@@ -147,6 +153,10 @@ source .env
 cast call $HELLOARCHITECT_ADDRESS "getGreeting()(string)" \
   --rpc-url $ARC_TESTNET_RPC_URL
 ```
+
+### Check Your Address on Explorer ###
+
+Check on https://testnet.arcscan.app/?_gl=1*1crz3rj*_gcl_au*MjEwNjY5NjM3MC4xNzYxNjYyNTY2*_ga*ODEwODgzNTc1LjE3NjE2NjI1NTg.*_ga_TFHGH9W48Q*czE3NjE4MDEwMDckbzQkZzEkdDE3NjE4MDE2NDEkajU4JGwwJGgyMDkxMjYxNjU2
 
 ## ✅ Final Result
 - Your HelloArchitect contract is live on Arc Testnet
